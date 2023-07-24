@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # this gem should be used in a rails app
-  spec.add_runtime_dependency 'rails', '<5.3.0', '>4.2.0'
+  spec.add_runtime_dependency 'rails', '<6.0.6', '>4.2.0'
   spec.add_runtime_dependency 'kaminari', '<2', '>0.16'
   spec.add_runtime_dependency 'font-awesome-rails', '<5', '>4.0.0'
 
